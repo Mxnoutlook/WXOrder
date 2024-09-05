@@ -1,0 +1,164 @@
+2024-01-11 11:04:25   [35]   INFO  Executed SQL: SELECT  `u`.`username` AS `Username` , `u`.`usermail` AS `Usermail` , `u`.`usercompany` AS `Usercompany` , `u`.`uservaildname` AS `Uservaildname` , `u`.`userownmail` AS `Userownmail` , `u`.`userpassword` AS `Userpassword` , `c`.`companyname` AS `Companyname`  FROM `tb_user` `u`  ,`tb_company_organization`  `c`  WHERE (( `u`.`usercompany` = `c`.`companycode` ) AND ( `u`.`usermail` = 'ruifeng.wang@giga-force.com' )) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:04:26   [35]   INFO  Executed SQL: UPDATE `tb_user`  SET
+             `wxid` = 'on5mM6543L6rf_ZC9qvRlRI24nZ0'    WHERE ( `usermail` = 'ruifeng.wang@giga-force.com' )
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:04:26   [35]   INFO  Executed SQL: SELECT  `u`.`username` AS `Username` , `u`.`usermail` AS `Usermail` , `u`.`usercompany` AS `Usercompany` , `u`.`uservaildname` AS `Uservaildname` , `u`.`userownmail` AS `Userownmail` , `u`.`userpassword` AS `Userpassword` , `c`.`companyname` AS `Companyname`  FROM `tb_user` `u`  ,`tb_company_organization`  `c`  WHERE (( `u`.`usercompany` = `c`.`companycode` ) AND ( `u`.`wxid` = 'on5mM6543L6rf_ZC9qvRlRI24nZ0' )) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:04:28   [31]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:04:28   [31]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:05:05   [36]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:05:05   [36]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:05:09   [33]   INFO  Executed SQL: INSERT INTO `tb_order`  
+           (`orderNum`,`orderLab`,`addressee`,`ccpeople`,`pickuptime`,`create_time`,`filepath`,`mailbody`,`orderTitle`,`sign`,`usercode`,`Id`)
+     VALUES
+           ('74755ae2-b2ba-416f-bf9d-b5af796c00ce','sdf','sdf','sadf','2024-01-11 3:04:12','2024-01-11 11:05:09','','备注信息','sdf ','0','ruifeng.wang@giga-force.com','23362876983800960') ;
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:05:09   [33]   INFO  Executing SQL: SELECT co.companyname,u.usermail FROM tb_company_organization co JOIN tb_user u ON u.usercompany=co.companycode JOIN tb_order c ON u.usermail=c.usercode WHERE c.orderNum='74755ae2-b2ba-416f-bf9d-b5af796c00ce'
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:05:09   [33]   INFO  Executed SQL: SELECT `filepath` FROM `tb_order`   WHERE ( `orderNum` = '74755ae2-b2ba-416f-bf9d-b5af796c00ce' )   LIMIT 0,1
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:05:09   [33]   INFO  Executed SQL: UPDATE `tb_order`  SET
+             `filepath` = 'D:\Work\WeChatApp\WxAppWebApi\Upload\Files\上海季丰//ruifeng.wang@giga-force.com\74755ae2-b2ba-416f-bf9d-b5af796c00ce\密码管理文件.md'    WHERE ( `orderNum` = '74755ae2-b2ba-416f-bf9d-b5af796c00ce' )
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:09:10   [40]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:09:10   [40]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:09:23   [40]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:09:23   [40]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:10:54   [44]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:10:54   [44]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:11:06   [40]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:11:06   [40]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:11:55   [44]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:11:55   [44]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:11:59   [44]   INFO  Executed SQL: SELECT  `u`.`username` AS `Username` , `u`.`usermail` AS `Usermail` , `u`.`usercompany` AS `Usercompany` , `u`.`uservaildname` AS `Uservaildname` , `u`.`userownmail` AS `Userownmail` , `u`.`userpassword` AS `Userpassword` , `c`.`companyname` AS `Companyname`  FROM `tb_user` `u`  ,`tb_company_organization`  `c`  WHERE (( `u`.`usercompany` = `c`.`companycode` ) AND ( `u`.`wxid` = 'on5mM6543L6rf_ZC9qvRlRI24nZ0' )) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:12:02   [46]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:12:02   [46]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:12:16   [41]   INFO  Executed SQL: INSERT INTO `tb_order`  
+           (`orderNum`,`orderLab`,`addressee`,`ccpeople`,`pickuptime`,`create_time`,`filepath`,`mailbody`,`orderTitle`,`sign`,`usercode`,`Id`)
+     VALUES
+           ('b8d514e4-22ef-4b0d-b736-52e2a6feb766','撒地方','撒地方','阿斯达四方','2024-01-11 3:11:58','2024-01-11 11:12:16','','备注信息','第三方','0','ruifeng.wang@giga-force.com','23362877009927912') ;
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:12:44   [46]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:12:44   [46]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:12:53   [50]   INFO  Executed SQL: INSERT INTO `tb_order`  
+           (`orderNum`,`orderLab`,`addressee`,`ccpeople`,`pickuptime`,`create_time`,`filepath`,`mailbody`,`orderTitle`,`sign`,`usercode`,`Id`)
+     VALUES
+           ('8955e7a7-9763-4c4b-b0c2-1328abbad2f4','asdf','aasdf','assdf','2024-01-11 3:12:44','2024-01-11 11:12:53','','备注信息','sadf','0','ruifeng.wang@giga-force.com','747612064399625404') ;
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:14:53   [54]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:14:53   [54]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:15:02   [46]   INFO  Executed SQL: INSERT INTO `tb_order`  
+           (`orderNum`,`orderLab`,`addressee`,`ccpeople`,`pickuptime`,`create_time`,`filepath`,`mailbody`,`orderTitle`,`sign`,`usercode`,`Id`)
+     VALUES
+           ('768a0046-313f-4520-bac7-9861c6b78398','dfg','dfg','df','2024-01-11 3:14:52','2024-01-11 11:15:02','','备注信息','dfg','0','ruifeng.wang@giga-force.com','23362877020931016') ;
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:15:21   [54]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:15:21   [54]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:15:31   [46]   INFO  Executed SQL: INSERT INTO `tb_order`  
+           (`orderNum`,`orderLab`,`addressee`,`ccpeople`,`pickuptime`,`create_time`,`filepath`,`mailbody`,`orderTitle`,`sign`,`usercode`,`Id`)
+     VALUES
+           ('7b70b61f-b10a-469f-8c15-163605036560','sdfg','dsfg','dsfg','2024-01-11 3:15:21','2024-01-11 11:15:31','','备注信息','dsfg','0','ruifeng.wang@giga-force.com','747612064762353980') ;
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:15:54   [54]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:15:54   [54]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:16:07   [54]   INFO  Executed SQL: INSERT INTO `tb_order`  
+           (`orderNum`,`orderLab`,`addressee`,`ccpeople`,`pickuptime`,`create_time`,`filepath`,`mailbody`,`orderTitle`,`sign`,`usercode`,`Id`)
+     VALUES
+           ('311765e6-31bb-44d2-9f48-bac1f55cf420','dsfg','sdfg','sdfg','2024-01-11 3:15:54','2024-01-11 11:16:07','','备注信息','dfg','0','ruifeng.wang@giga-force.com','730089906299224') ;
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:16:32   [46]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:16:32   [46]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:16:37   [53]   INFO  Executed SQL: SELECT  `u`.`username` AS `Username` , `u`.`usermail` AS `Usermail` , `u`.`usercompany` AS `Usercompany` , `u`.`uservaildname` AS `Uservaildname` , `u`.`userownmail` AS `Userownmail` , `u`.`userpassword` AS `Userpassword` , `c`.`companyname` AS `Companyname`  FROM `tb_user` `u`  ,`tb_company_organization`  `c`  WHERE (( `u`.`usercompany` = `c`.`companycode` ) AND ( `u`.`wxid` = 'on5mM6543L6rf_ZC9qvRlRI24nZ0' )) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:16:39   [61]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:16:39   [61]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:16:50   [53]   INFO  Executed SQL: INSERT INTO `tb_order`  
+           (`orderNum`,`orderLab`,`addressee`,`ccpeople`,`pickuptime`,`create_time`,`filepath`,`mailbody`,`orderTitle`,`sign`,`usercode`,`Id`)
+     VALUES
+           ('e576b6ef-eb41-405a-b8aa-75e235303856','asdf','asdf','asd','2024-01-11 3:16:36','2024-01-11 11:16:50','','备注信息','sadf','0','ruifeng.wang@giga-force.com','747612064804293760') ;
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:17:15   [54]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:17:15   [54]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:19:18   [62]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:19:18   [62]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:20:07   [64]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:20:07   [64]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:20:19   [64]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:20:19   [64]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:20:46   [64]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:20:46   [64]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:21:22   [64]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:21:22   [64]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:22:10   [53]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:22:10   [53]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:43:59   [22]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 11:43:59   [22]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 13:08:41   [42]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 13:08:41   [42]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 13:09:03   [45]   INFO  Executed SQL: SELECT  `u`.`username` AS `Username` , `u`.`usermail` AS `Usermail` , `u`.`usercompany` AS `Usercompany` , `u`.`uservaildname` AS `Uservaildname` , `u`.`userownmail` AS `Userownmail` , `u`.`userpassword` AS `Userpassword` , `c`.`companyname` AS `Companyname`  FROM `tb_user` `u`  ,`tb_company_organization`  `c`  WHERE (( `u`.`usercompany` = `c`.`companycode` ) AND ( `u`.`usermail` = 'ruifeng.wang@giga-force.com' )) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 13:09:04   [45]   INFO  Executed SQL: UPDATE `tb_user`  SET
+             `wxid` = 'on5mM6543L6rf_ZC9qvRlRI24nZ0'    WHERE ( `usermail` = 'ruifeng.wang@giga-force.com' )
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 13:09:04   [45]   INFO  Executed SQL: SELECT  `u`.`username` AS `Username` , `u`.`usermail` AS `Usermail` , `u`.`usercompany` AS `Usercompany` , `u`.`uservaildname` AS `Uservaildname` , `u`.`userownmail` AS `Userownmail` , `u`.`userpassword` AS `Userpassword` , `c`.`companyname` AS `Companyname`  FROM `tb_user` `u`  ,`tb_company_organization`  `c`  WHERE (( `u`.`usercompany` = `c`.`companycode` ) AND ( `u`.`wxid` = 'on5mM6543L6rf_ZC9qvRlRI24nZ0' )) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 13:09:07   [42]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 13:09:07   [42]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 13:09:51   [45]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 13:09:51   [45]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 13:09:55   [51]   INFO  Executed SQL: SELECT `companymail`,`companycode`,`mailname`,`sign`,`Id` FROM `tb_compmail_organization`  WHERE ( `companycode` = 'QKH000711' ) 
+----------------------------------------------------------------------------------------------------------------------
+2024-01-11 13:09:55   [51]   INFO  Executing SQL: SELECT `mailaddress`,`mailname`,`sign`,`Id` FROM `tb_gigamail_organization`  
+----------------------------------------------------------------------------------------------------------------------

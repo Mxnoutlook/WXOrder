@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Masuit.Tools.Net" Version="2.6.8.3" />
+	  <PackageReference Include="MySqlBackup.NET.MySqlConnector" Version="2.3.8" />
+	  <PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
+	  <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+	  <PackageReference Include="Autofac.Extras.DynamicProxy" Version="7.1.0" />
+	  <PackageReference Include="Quartz" Version="3.6.2" />
+	  <PackageReference Include="MailKit" Version="4.3.0" />
+	  <PackageReference Include="MediatR" Version="12.2.0" />
+	  <PackageReference Include="Serilog.Formatting.Compact" Version="2.0.0" />
+	  <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+	  <PackageReference Include="Serilog.Sinks.MariaDB" Version="1.0.1" />
+	  <PackageReference Include="SqlSugarCore" Version="5.1.4.86" />
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	  <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+	  <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+  </ItemGroup>
+
+</Project>

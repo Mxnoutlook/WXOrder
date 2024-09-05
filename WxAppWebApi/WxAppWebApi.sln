@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WxAppWebApi", "WxAppWebApi.csproj", "{895E2932-05B7-446E-BE9B-A00B346303DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{895E2932-05B7-446E-BE9B-A00B346303DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895E2932-05B7-446E-BE9B-A00B346303DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895E2932-05B7-446E-BE9B-A00B346303DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895E2932-05B7-446E-BE9B-A00B346303DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D49D8048-BB0A-4732-A4C6-D40D4DAC74F2}
+	EndGlobalSection
+EndGlobal

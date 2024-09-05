@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9PngNY67BsB5xly7T2z2sMOReKGYqB89BRVFQZ4oZGtpu0dMNQdTTcsc8KKnZWN/byoJvT+zImB3KPoj7Xb7OA==",
+  "dgSpecHash": "G3tcceG3JIzF5bbfJv1CabiGuTGvT59RCX26uJ3TVbmi4y/3DXdH4K0mOQUnbNxm6PcwC2FY/wDDlNhKAMfbKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\38980\\Desktop\\WxAppWebApi\\WxAppWebApi.csproj",
+  "projectFilePath": "C:\\Users\\38980\\Desktop\\WXOrder\\WxAppWebApi\\WxAppWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\38980\\.nuget\\packages\\autofac\\6.5.0\\autofac.6.5.0.nupkg.sha512",
     "C:\\Users\\38980\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
